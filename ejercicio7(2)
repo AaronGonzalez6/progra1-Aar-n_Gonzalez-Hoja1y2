@@ -1,0 +1,28 @@
+Algoritmo ejercicio_7
+	Definir a,b,c como Enteros
+	Imprimir "Introduce los datos a comparar: "
+	Leer a,b,c
+	
+Si a>b y a>c Entonces
+Escribir  "El mayor es: ", a
+SiNo
+Si b>a y b>c Entonces
+Escribir "El mayor es: ",b
+Sino
+Si c>a y c>b Entonces	
+Escribir "El mayor es: ", c
+Si a<b y a<c Entonces
+Escribir  "El menor es: ", a
+SiNo
+Si b<a y b<c Entonces
+Escribir "El menor es: ",b
+Sino
+Si c<a y c<b Entonces	
+Escribir "El menor es: ", c	
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinSi
+FinAlgoritmo
