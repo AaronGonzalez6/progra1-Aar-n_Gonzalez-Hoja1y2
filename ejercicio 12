@@ -1,0 +1,10 @@
+Algoritmo ejercicio_12
+	Definir nota Como Real
+	Escribir "Ingrese calificacion: "
+	Leer nota
+	Si (nota>=12.50 y nota<=20) Entonces
+		Escribir "Aprobado "
+	SiNo
+		Escribir "Desaprobado "
+	FinSi
+	FinAlgoritmo
