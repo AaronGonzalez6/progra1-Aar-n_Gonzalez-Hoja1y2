@@ -1,0 +1,12 @@
+Algoritmo ejercicio_6
+	Definir Compra,Descuento,Pagar Como Real
+	Escribir "Precio del podructo: "
+	Leer Compra
+	Escribir "Descuento brindado: "
+	Leer Descuento
+	Escribir "Cantidad solicitada: "
+	Leer Cantidad
+	ImportePagar<-(Compra-Compra*Descuento)*Cantidad
+	Escribir "El importe a pagar es: ",ImportePagar
+	Mostrar ImportePagar
+FinAlgoritmo
