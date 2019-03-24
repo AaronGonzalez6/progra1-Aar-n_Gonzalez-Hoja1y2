@@ -1,0 +1,15 @@
+Algoritmo sin_titulo
+	Definir A,B,L,precio,metros,precioF Como Real
+	Escribir "Ingresa lado A: "
+	Leer A
+	Escribir "Ingresa lado B: "
+	Leer B
+	Escribir "Ingresa lado C: "
+	Leer L
+	Escribir "Ingresa precio de m3: "
+	Leer precio
+	metros<-A*B*L
+	Escribir "Metros c�bicos " , metros
+	precioF<-metros*precio
+	Escribir "Precio a pagar " , precioF
+FinAlgoritmo
