@@ -1,0 +1,17 @@
+Algoritmo ejercicio_14
+Escribir "Ingrese promedio final: "
+Leer nota
+Escribir "Ingrese cantidad de faltas durante el ciclo: "
+Leer faltas
+Escribir "Ingrese monto mensual: "
+Leer monto
+//calculamos el porcentaje
+DESCUENTO=0.30 
+Si(nota>=15.00 y faltas=0)  Entonces
+	Escribir "Se le dara el descuento de 30% "
+	Mostrar monto-monto*0.30
+SiNo
+	Escribir "No se le dara el descuento de 30% "
+	Mostrar monto
+Fin Si
+FinAlgoritmo
