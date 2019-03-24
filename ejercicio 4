@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+	Escribir "Las acciones vendiadas por el primer socio son: "
+	Leer socio1
+	Escribir "Las acciones vendiadas por el segundo socio son: "
+	Leer socio2
+	Escribir "Las acciones vendiadas por el tercer socio son: "
+	Leer socio3
+	Escribir "Ganancia obtenida por los 3 socios"
+	Leer Gf
+	AccionesT <- socio1+socio2+socio3
+	Gananciapri1 <-(socio1/AccionesT)*Gf
+	Gananciaseg2 <-(socio2/AccionesT)*Gf
+	Gananciater3 <-(socio3/AccionesT)*Gf
+	Escribir "La ganancia del primer socio fue de: " Gananciapri1
+	Escribir "La ganancia del segundo socio fue de: " Gananciaseg2
+	Escribir "La ganancia del tercer socio fue de: " Gananciater3
+FinAlgoritmo
