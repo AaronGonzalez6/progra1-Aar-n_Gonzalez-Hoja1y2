@@ -1,0 +1,17 @@
+Algoritmo sin_titulo
+	Definir cap1,cap2,cap3 Como Real
+	Escribir "Capital de Michaela es: "
+	Leer cap1
+	Escribir "Capital de Efra�n es: "
+	Leer cap2
+	Escribir "Capital de Even es: "
+	Leer cap3
+	CapTotal<-cap1+cap2+cap3
+	PorncentajeCap1<-(cap1/CapTotal)*100
+	PorncentajeCap2<-(cap2/CapTotal)*100
+	PorncentajeCap3<-(cap3/CapTotal)*100
+	Escribir "El capital total es: ",CapTotal
+	Escribir "El porcentaje de Michaela es: ",PorncentajeCap1
+	Escribir "El porcentaje de Efra�n es: ",PorncentajeCap2
+	Escribir "El porcentaje de Even es: ",PorncentajeCap3
+FinAlgoritmo
