@@ -1,0 +1,8 @@
+Algoritmo ejercicio_2
+	Escribir "Numero en segundos: "
+	Leer H
+	Hora<-trunc(H/3600)
+	Minuto<-trunc((H MOD 3600)/60)
+	Segundo<-trunc((H MOD 3600)MOD 60)
+	Escribir Hora "_" Minuto "_" Segundo "_"
+FinAlgoritmo
