@@ -1,0 +1,15 @@
+Algoritmo ejercicio_3
+	Escribir "Ingresar hora"
+	leer h
+	Escribir "Ingresar minuto"
+	Leer m
+	Escribir "Ingresar segundo"
+	Leer s
+    Si m=59 & s=59 Entonces
+		Escribir "Nueva hora",h+1,":",00,":",00
+	SiNo
+		Escribir "Nueva hora",h,":",m,":",s+1
+  Fin Si
+
+FinAlgoritmo
+
