@@ -1,0 +1,25 @@
+Algoritmo ejercicio_9
+	Escribir "Ingresar nota del estudiante: "
+	Leer nota
+	Si nota=20 o nota=19 Entonces
+	Escribir "El estudiante tendr� A como nota"
+SiNo
+	Si nota>=16 Y nota<=18 Entonces
+		Escribir "El estudiante tendr� B como nota"
+	SiNo
+		Si nota<=15 Y nota>=13 Entonces
+			Escribir "El estudiante tendr� C como nota"
+		SiNo
+			Si nota<=12 Y nota>=10 Entonces
+				Escribir "El estudiante tendr� D como nota"
+			SiNo
+				Si  nota<=9 Y nota>=1 Entonces
+					Escribir "El estudiante tendr� E como nota"
+				SiNo
+					Escribir "No v�lido"
+				Fin Si
+			Fin Si
+		Fin Si
+	Fin Si
+Fin Si
+FinAlgoritmo
