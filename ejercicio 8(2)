@@ -1,0 +1,45 @@
+Algoritmo ejercicio_8
+	Escribir"Introduce los datos a comparar: "
+	Leer a,b,c
+	Si (a>b) & (a>c) Entonces
+		may<-a	
+		Si b>c Entonces
+			inter<-b
+			men<-c
+		SiNo
+			inter<-c
+			men<-b
+		Fin Si
+	SiNo
+		men<-a
+	FinSi
+	
+	Si (b>a) & (b>c) Entonces
+		may<-b	
+		Si a>c Entonces
+			inter<-a
+			men<-c
+		SiNo
+			inter<-c
+			men<-a
+		Fin Si
+	SiNo
+		men<-b
+	FinSi
+	
+	Si (c>a) & (c>b) Entonces
+		may<-c	
+		Si a>b Entonces
+			inter<-a
+			men<-b
+		SiNo
+			inter<-b
+			men<-a
+		Fin Si
+	SiNo
+		men<-c
+	FinSi
+	Escribir "Mayor ",may
+	Escribir "Intermedio ",inter
+	Escribir "Menor ",men
+	FinAlgoritmo
