@@ -1,0 +1,23 @@
+Algoritmo ejercicio_11
+	Escribir "El precio de las entradas son de 10,15,20"
+	Escribir "Limite de entradas 4"
+	Escribir "Escribir el monto"
+	Leer m
+	Escribir "Ingresar el numero de entras"
+	Leer n
+	Si n=2 
+	Escribir "El monto a pagar es de: "
+	Mostrar (m*n)-(m*n)*0.10
+	Fin Si
+	Si n=3
+	Escribir "El monto a pagar es de: " 
+	Mostrar (m*n)-(m*n)*0.15
+	Si n=4 
+	Escribir "El monto a pagar es de: "
+	Mostrar (m*n)-(m*n)*0.2
+FinSi
+FinSi
+Si n<2 o n>4
+	Escribir "Operacion invalida"
+Fin Si
+FinAlgoritmo
